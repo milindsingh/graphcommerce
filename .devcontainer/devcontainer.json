@@ -10,8 +10,8 @@
     }
   },
   "waitFor": "updateContentCommand",
-  "updateContentCommand": "cd examples/magento-graphcms && yarn install",
-  "postAttachCommand": "cd examples/magento-graphcms && yarn dev",
+  "updateContentCommand": "cd examples/magento-graphcms && yes ' ' | yarn install",
+  "postAttachCommand": "cd examples/magento-graphcms && yes ' ' | yarn dev",
   "customizations": {
     "vscode": {
       "settings": {},
